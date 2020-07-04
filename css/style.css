@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+
+.caja-1{
+    margin-top: 80px;
+    width: 448px;
+    height: 500px;
+    border: solid rgb(209, 209, 209) 1px;
+    border-radius: 10px;
+    
+}
+
+.caja-1-1{ /*logo de Google*/
+    width: 100px;
+    height: 40px;
+    margin-top: 50px;
+}
+
+.caja-1-2{ /*iniciar sesión*/
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.caja-1-3{ /*utiliza tu cuenta de Google*/
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.caja-1-4{ /*cajita de campos*/
+    padding: 0 50px;
+    margin-top: 40px;
+    min-width:250px;
+}
+
+.caja-1-4-input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: solid rgb(209, 209, 209) 1px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.caja-1-4-span-1{
+    width: 100%;
+    font-size: 15px;
+    color: rgb(7, 130, 230);
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.caja-1-4-span-2{
+    width: 100%;
+    font-size: 15px;
+    color: grey;
+    margin-top: 30px;
+}
+
+.caja-1-4-span-2 b{
+    font-size: 15px;
+    color: rgb(7, 130, 230);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.caja-1-4-botones{
+    margin-top: 25px;
+    width: 100%;
+    height: 50px;
+}
+
+.caja-1-4-span-a{
+    color: rgb(7, 130, 230);
+    cursor: pointer;
+}
+
+.caja-1-4-span-b{
+    color: #ffffff;
+    background: rgb(7, 130, 230);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.caja-1-4-span-b:hover{
+    background:rgb(0, 73, 133);
+}
+
+.caja-1-4-span-a, .caja-1-4-span-b{
+    font-size: 15px;
+    font-weight: bold;
+    width: 104px;
+    height: 35px;
+}
+
+.caja-2{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 448px;
+    height: 30px;
+}
+
+.caja-2-span,.caja-2-cajita-span .caja-2-span{
+    font-size: 12px;
+}
+
+.caja-2-span{
+    margin-left:10px
+}
+
+.caja-2-span i{
+    font-size: 30px;
+}
+
+.caja-2-cajita-span .caja-2-span{
+    color: grey;
+    font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+    .caja-1{ /*condiciones*/
+        border:none; 
+        width:100%;
+        height:100%;
+        margin:0;
+    }
+
+    .caja-2{
+        flex-direction: column;
+    }
+
+    .caja-1-1{
+        margin-top:15px;
+    }
+
+  }
